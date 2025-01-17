@@ -51,6 +51,15 @@ body {
 		transition: ease stroke-dashoffset 5s, ease fill-opacity 1s 1.7s;
 }
 
+
+@media screen and (max-width: 768px) {
+    .custom-porto-svg-logo path {
+        stroke-width: 0.5px; /* Reducir el grosor del trazo */
+        stroke-dasharray: 315; /* Cambiar la longitud del trazo */
+        stroke-dashoffset: 315; /* Ajustar el desfase */
+    }
+}
+
 .custom-porto-svg-logo.active path {
 		stroke-dashoffset: 0;
 		fill-opacity: 1;
