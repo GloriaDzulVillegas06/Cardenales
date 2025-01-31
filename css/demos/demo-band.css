@@ -62,7 +62,7 @@ body {
 @media screen and (max-width: 768px) {
     .custom-porto-svg-logo {
         max-width: 100%; /* Permite que el SVG se ajuste en móviles */
-        max-height: 300px; /* Ajusta según necesites */
+        max-height: 960px; /* Ajusta según necesites */
     }
 }
 
