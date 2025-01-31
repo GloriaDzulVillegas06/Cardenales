@@ -49,6 +49,9 @@ body {
 		stroke-dasharray: 630;
 		stroke-dashoffset: 630;
 		transition: ease stroke-dashoffset 5s, ease fill-opacity 1s 1.7s;
+		width: 100%;  /* Se ajusta al contenedor */
+		height: auto; /* Mantiene la proporción */
+		max-width: 960px; /* Ajusta según el diseño deseado */
 }
 
 
