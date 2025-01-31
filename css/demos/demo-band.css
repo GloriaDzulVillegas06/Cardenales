@@ -41,6 +41,13 @@ body {
 		}
 }
 
+.custom-porto-svg-logo {
+    width: 100%;  /* Se ajusta al contenedor */
+    height: auto; /* Mantiene la proporción */
+    max-width: 960px; /* Tamaño máximo */
+    display: block; /* Evita espacios extra alrededor */
+}
+
 /* Custom Porto SVG Logo (initial state for animation inside slide) */
 .custom-porto-svg-logo path {
 		fill-opacity: 0;
@@ -49,17 +56,13 @@ body {
 		stroke-dasharray: 630;
 		stroke-dashoffset: 630;
 		transition: ease stroke-dashoffset 5s, ease fill-opacity 1s 1.7s;
-		width: 100%;  /* Se ajusta al contenedor */
-		height: auto; /* Mantiene la proporción */
-		max-width: 960px; /* Ajusta según el diseño deseado */
 }
 
 
 @media screen and (max-width: 768px) {
-    .custom-porto-svg-logo path {
-        stroke-width: 0.5px; /* Reducir el grosor del trazo */
-        stroke-dasharray: 315; /* Cambiar la longitud del trazo */
-        stroke-dashoffset: 315; /* Ajustar el desfase */
+    .custom-porto-svg-logo {
+        max-width: 100%; /* Permite que el SVG se ajuste en móviles */
+        max-height: 300px; /* Ajusta según necesites */
     }
 }
 
