@@ -42,10 +42,10 @@ body {
 }
 
 .custom-porto-svg-logo {
-    width: 200%;  /* Se ajusta al contenedor */
+    width: 300%;  /* Se ajusta al contenedor */
     height: auto; /* Mantiene la proporción */
     max-width: 960px; /* Tamaño máximo */
-    display: block; /* Evita espacios extra alrededor */
+    /*display: block;  Evita espacios extra alrededor */
 }
 
 /* Custom Porto SVG Logo (initial state for animation inside slide) */
@@ -61,7 +61,7 @@ body {
 
 @media screen and (max-width: 768px) {
     .custom-porto-svg-logo {
-        max-width: 150%; /* Permite que el SVG se ajuste en móviles */
+        max-width: 200%; /* Permite que el SVG se ajuste en móviles */
         max-height: 960px; /* Ajusta según necesites */
     }
 }
